@@ -1,0 +1,1887 @@
+Main Content Of HTML
+ 
+1.Introduction html               
+2.Tag,    Element,ttribute.                 
+3.    Basic html structure.
+4.    Heading and paragraph.
+5.    Html style and color.
+6.    Text formatting tags
+7.    Html validator
+8.    Bangla writing in webpage
+9.    Entity, pre tag, comment
+10.  Symbols and emoji
+11.  Font style
+12.  List
+13.  Image
+14.  Iframe
+15.  Hyperlink
+16.  Div
+17.  Html table->table,
+rows pan, colspan, cellpadding, Cells pacing, table + list +image +hyperlink=12 videos
+18.  Html form
+19.  Html media- > audio, 
+20.Html Project
+21.Svg and progress bar
+ 
+
+
+
+
+
+
+
+
+
+Basic HTML Codes
+Full Stack Web Developer
+<html></html>                             	                           Start and end document
+<h1></h1>                                                                  Header size 1-6(Large-Small)                                 	
+<p></p>                                                                    	Paragraph.
+<br>                                                                            Break the line.
+&nbsp:                                                                        	Non breaking Space
+<strike></strike>                                                     	Strike through
+<b> </b>                                                                    	Blood the text
+<i></i>                                                                        	Italics (font)
+<U></U>                                                                    	Underline the text
+<a href=”URL”>Text</a>                                      	Basic link
+<img src=”URL” alt=”text”>                                  	Basic image
+Src = ” URL”                                                               source (URL-filename)
+Alt=” text ”                                                                 	Alt (Hover) text
+<table></table>                                                       	Basic table
+<Li></Li>                                                                    	List Item
+Width=” number”                                                 	Line/img width by number.
+Hight=” number”                                                     	Line/img height by number.
+What is HTML?
+HTML has full meaning-Hyper Text markup Language.
+It is not Programming language. That is markup Language.
+Which helps you easily produce webpage.
+Version	Year
+ HTML+	1993
+HTML 2.0	1995
+HTML 3.2	1997
+HTML 4.0.1	1999
+XHTML 1.0	2000
+XHTML 5	2012
+XHTML 5	2013
+
+HTML সুবিধা সমূহ: 
+1.	খুব সহজে এইচটিএমএল ভাষা শেখা যায় ।
+2.	এটি বিনামূল্যে ব্যবহার করা যায় ।
+3.	প্রায় সকল ব্রাউজার এইচটিএমএল সমর্থন করে ।
+4.	কেস সেনসিটিভ নয়। <HTML><html>
+5.	HTML তৈরি ওয়েব পেজ লোড করতে কম সময় লাগে। 
+6.	HTML পেজে খুব সহজে টেক্সটি ইমেজ অডিও ভিডিও ইত্যাদি সংযুক্ত করা যায়।  
+HTML এর অসুবিধা সমূহ:
+1.	কোড লিখতে syntax মনে রাখতে হয়।
+2.	এর সাহায্য dynamic page তৈরি করা যায় না।
+Tag element and attribute:
+Tag হচ্ছে HTML এর প্রাণ। HTML document মূলত Tag এর সমন্বয়ে গঠিত।
+উদাহরণ: <p>This is a paragraph</p>
+১ HTML tag গুলো হল Keyboard, যেগুলো উভয়পাশে এঙ্গেল <> ব্র্যাকেট এর মাধ্যমে সীমাবদ্ধ থাকে।
+২. সাধারণত Tag গুলো জোড়ায় জোড়ায় আসে, opening tag and closing tag.
+ A small HTML documents
+<!DOCTYPE HTML>
+ <Html> 
+ <head>
+<Title> Page Title</title>
+</Head>
+<Body>
+<h1>my first heading</h1>
+<P> my first paragraph</p>
+</Body>
+</Html>
+Tag মূলত দুই ধরনের ট্যাগ ব্যবহার করা হয়। 
+১. Container Tag এর opening and closing tag থাকে 
+যেমন: <p>..…..<p/>,
+<HTML>.......</Html> ইত্যাদি।
+3.	Empty tag এর জন্য কোন closing ট্যাগ থাকেনা।
+যেমন: <br/> ,<HR/>, <IMG/> ইত্য
+
+•	
+•	Html ফাইল তৈরি করার জন্য যা যা লাগবে। 
+1. Html প্রোগ্রাম লেখার জন্য একটি টেক্সট এডিটর লাগবে যেমন: 
+Notepad WordPad MS -word etc. 
+2. Html প্রোগ্রামের আউটপুট বা ফলাফল দেখতে লাগবে একটি ব্রাউজার। যেমন: 
+Mozilla, Google Chrome opera etc.
+
+
+•	 HTML এর সাধারন গঠন:
+ 
+ 
+    
+
+ 
+ 
+  
+
+  
+ 
+
+ 
+
+
+
+
+1. Html tag এর কর্মদক্ষ থাকে বাড়ানোর জন্য এড্রিবিউট ব্যবহার করা হয়।
+<!DOCTYPE html>
+<html>
+<head> <title> The first website </title>
+ </head>                                               Here is bgcolor Attribute.
+<body bgcolor=” green”>
+Hello world
+</body>
+</html>
+Html ফাইল তৈরি করার জন্য যা যা লাগবে। 
+1. Html প্রোগ্রাম লেখার জন্য একটি টেক্সট এডিটর লাগবে যেমন: 
+Notepad, WordPad, MS -word, etc. 
+2. Html প্রোগ্রামের আউটপুট বা ফলাফল দেখতে লাগবে একটি ব্রাউজার। যেমন: 
+Mozilla, Google Chrome, opera, etc.
+
+<!DOCTYPE html>
+<html>
+<head> <title> Sheikh Farid</title>
+</head>
+ <body>
+My name is Sheikh Farid.
+I am 38 Years old.                This is Output.
+I am learning to Html
+</body>
+<html>
+
+Head Tag:
+<!DOCTYPE html>
+<html>
+<head>
+<mate   charset   =   ”UTF-8”>
+<mate http-equiv=”X-UA-compatible” content=”IE=edge”>
+<mate name=”veiwport” content=”width=device -width, initial-scale=1.0”/>
+<mate name=” description” content=” free html tutorial”/>
+<mate name=” keywords” content=” html, HTML”/>
+<mate name=” Author” content=” Sheikh Farid”>
+<link rel=” stylesheet” href=” style.css”>
+<script src=” index.js”> </script>
+
+<title> Sheikh Farid </title>
+</head.>
+<body>
+
+</body>
+</html>
+
+ 
+
+
+
+
+	Heading tag                <h1> - - - - - -</h1>
+	Horizontal rule tag   <hr/>
+	Paragraph tag           <P> - - - - - -</p>
+	Align Attribute
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heading Paragraph </title>
+</head>
+<body>
+<h1 align =” center”> Bangladesh is our Greenland </h1> <hr/>
+<h2> Bangladesh is our Greenland </h2>
+<h3> Bangladesh is our Greenland </h3>           Output
+<h4> Bangladesh is our Greenland </h4>      Bangladesh
+
+        </body>                                                                            Bangladesh
+       </html>                                                                              Bangladesh
+
+
+ 
+
+                                                                                                                       
+         <!DOCTYPE html>
+<html>
+<head>
+<title>Learning html style </title>
+</head>
+<body style=” background-colour: blue”>
+<h1style=”text-align: center; colour: green”>Bangladesh </h1>
+            </body>
+          </html>                                         
+Output
+Bangladesh
+
+ 
+
+
+<!DOCTYPE html> 
+<html>                                                                                           
+<body>                                                                                          
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and 
+<sup>superscript</sup></p>
+
+</body>
+
+
+Strong
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This text is normal. </p>
+
+<p><strong>This text is important! </strong></p>
+
+</body>
+</html>
+
+Small
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is some normal text</p>
+<p><small>This is some smaller text </small></p>
+
+</body>
+</html>
+Mark
+            <!DOCTYPE html>
+<html>
+<body>
+
+<p>Do not forget to buy <mark>milk</mark> today</p>
+
+</body>
+</html
+
+Del
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+</body>
+</html>
+INS
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>.
+</p>
+
+</body>
+</html>
+ 
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The pre-element</h1>
+
+<pre>
+Text in a pre-element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+             </body>
+</html>
+
+&	&Amp;	&#38;	   &#x26;	  ampersand
+
+©	&Copy;	&#169;	&#xA9;	copyright sign
+
+®	&Reg;	&#174;	&#xAE;	registered sign = registered trade mark sign
+
+	&Nbsp;	&#160;	&#xA0;	no-break space = non-breaking space
+
+<	&lt;	&#60;	&#x3C;	less than
+
+>	&gt;	&#62;	&#x3E;	greater than
+
+
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  font-size: 20px;
+}
+</style>
+<body>
+
+<span style='font-size:100px;'>&#38;</span>
+<p>I will display &#38;</p>
+<p>I will display &#x26;</p>
+<p>I will display &amp;</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  font-size: 20px;
+}
+</style>
+<body>
+
+<span style='font-size:100px;'>&#169;</span>
+<p>I will display &#169;</p>
+<p>I will display &#xA9;</p>
+<p>I will display &copy;</p>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  font-size: 20px;
+}
+</style>
+<body>
+
+<span style='font-size:100px;'>&#174;</span>
+<p>I will display &#174;</p>
+<p>I will display &#xAE;</p>
+<p>I will display &reg;</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head> <title> Entity tag </title>
+</head>
+<body>
+I am &nbsp Sheikh Farid
+&Copy; copyright
+&lt; body &gt;
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+
+</body>
+</html>
+
+ 
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body>
+
+<h1>My First Emoji</h1>
+
+<p>&#128512;</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body>
+
+<p>I will display A B C</p> 
+<p>I will display &#65; &#66; &#67;</p> 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body>
+<h1>Sized Emojis</h1>
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151;
+</p> 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add Symbols using HTML Entities</title>
+</head>
+
+<body>
+    <h1> Geeks for Geeks </h1>
+    <h3>Add Symbols using HTML Entities</h3>
+
+    <p>Here are some symbols:</p>
+    <ul>
+        <li>&amp; (ampersand)</li>
+        <li>&lt; (less than) </li>
+        <li>&gt; (greater than) </li>
+        <li>&copy; (copyright)</li>
+        <li>&euro; (euro)</li>
+    </ul>
+</body>
+
+</html>
+Output:
+ 
+Add Symbols using CSS Content Property
+In this example, we are using the CSS content property with the: before pseudo-element to insert symbols into the HTML content. Each symbol is represented by its Unicode code point preceded by a backslash (\). This technique allows us to add symbols like & (ampersand), < (less than), > (greater than), © (copyright), and € (euro) directly through CSS styling
+Example: The below example uses CSS Content Property to Add Symbols in HTML.
+HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Add Symbols using CSS content Property
+    </title>
+
+    <style>
+        ampersand: before {
+            content: "&";
+        }
+        
+        less-than: before {
+            content: "<";
+        }
+        
+        greater-than: before {
+            content: ">";
+        }
+        
+        copyright: before {
+            content: "\00A9";
+        }
+        
+        euro: before {
+            content: "\20AC";
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Geeks for Geeks </h1>
+    <h3>Add Symbols using CSS content Property</h3>
+
+    <p>Here are some symbols:</p>
+    <ul>
+        <li class="ampersand"> (ampersand)</li>
+        <li class="less-than"> (less than) </li>
+        <li class="greater-than"> (greater than) </li>
+        <li class="copyright"> (copyright)</li>
+        <li class="euro"> (euro)</li>
+    </ul>
+</body>
+
+</html>
+Output:
+ 
+ELEVATE YOUR CODING JOURNEY WITH A PREMIUM SUBSCRIPTION. BENEFIT FROM AD-FREE LEARNING, UNLIMITED ARTICLE SUMMARIES, AN AI BOT, ACCESS TO 35+ COURSES, AND MORE-AVAILABLE ONLY WITH GEEKSFORGEEKS PREMIUM! EXPLORE NOW!
+Want to be a Software Developer or a Working Professional looking to enhance your Software Development Skills? Then, master the concepts of Full-Stack Development. Our Full Stack Development - React and Node.js Course will help you achieve this quickly. Learn everything from Front-End to Back-End Development with hands-on Projects and real-world examples. This course enables you to build scalable, efficient, dynamic web applications that stand out. Ready to become an expert in Full-Stack? Enrol Now and Start Creating the Future!
+
+
+
+GPANCOMPUTER
+ 
+NEXT ARTICLE
+HOW TO ADD ICONS IN HTML?
+Similar Reads
+
+HTML Symbols
+there are some characters in html those are reserved, they have special meaning when they used in an html document. Like if you used less than or greater than sign in your html document then the browser will treat them differently special symbols &copy;:copyright sign Syntax : &amp;copy; code : &lt;p&gt;these is the sign of : &amp;copy;&lt;/p&gt;
+6 min read
+
+Motivation to bring symbols in ES6
+Javascript comprised six datatypes undefined, null, boolean, String, Number and Object (includes array datatype). The Symbol is newly introduced datatype in ES6 also known as JavaScript 6, which makes the total number of data types in JavaScript is 7. It is a primitive datatype which means Symbol cannot be instantiated. Symbols are immutable dataty
+3 min read
+
+CSS additive-symbols Descriptor
+CSS additive-symbols descriptor is mainly used to specify symbols when the value of a counter system descriptor is additive. It defines additive tuples, each of which is a pair containing a symbol and a non-negative integer weight. Syntax: additive-symbols : positiveIntegerCounter identifier(s)/string(s)/image(s); Property values: There are a few i
+1 min read
+
+D3.js Symbols symbolCross Property
+The d3.symbolCross property is a symbol type in D3.js. It is a cross-shaped symbol type that can be used. Syntax: d3.symbolCross Example 1: C/C++ Code &lt;!DOCTYPE html & gt; &lt; html & gt; &lt; head& gt; &lt; meta charset=&quot;utf-8&quot;&gt; &lt; script src= &quot; https: //d3js.org/d3.v5.min.js&quot;&gt; &lt;/script &gt; &lt;/ head &gt; &lt; body &gt; &lt;h1
+1 min read
+
+View More Articles
+Article Tags :
+7.	HTML
+8.	WEB TECHNOLOGIES
+9.	HTML-QUESTIONS
+ 
+Corporate & Communications Address: - A-143, 9th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305) | Registered Address: - K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
+
+CS SUBJECTS
+@GEEKSFORGEEKS, CATION PRIVATE LIMITED, ALL RIGHTS RESERVED
+We use cookies to ensure you have the best browsing experience on our website. By using our site, you acknowledge that you have read and understood our COOKIE POLICY & PRIVACY POLICY  Cookies are not coll
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Emojis Example</title>
+</head>
+
+<body>
+    <h1>HTML Emojis Example</h1>
+    <p>
+        &#128516; This is a smiling face with open mouth
+        and smiling eyes emoji
+    </p>
+    <p>&#9996; This is a victory hand emoji</p>
+    <p>&#8986; This is a watch emoji</p>
+</body>
+
+</html>
+Output:
+ 
+HTML Emoji
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Emojis Example</title>
+    <style>
+        large {
+            font-size: 2em;
+            /* Increase font size */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Emojis Example</h1>
+    <h3>Transport symbols</h3>
+    <p>
+        &#x1F682; Train &nbsp; &nbsp;
+        <span class="large">&#x1F6E5;</span> Tram
+    </p>
+    <h3>Office emojis</h3>
+    <p>
+        &#x1F3E2; Office Building &nbsp; &nbsp;
+        <span class="large">&#x1F4BC;</span> Laptop
+    </p>
+    <h3>People emojis</h3>
+    <p>
+        &#x1F468; Man &nbsp; &nbsp;
+        <span class="large">&#x1F469;</span> Woman
+    </p>
+    <h3>People emojis</h3>
+    <p>
+        &#x1F436; Dog &nbsp; &nbsp;
+        <span class="large">&#x1F981;</span> Lion
+    </p>
+</body>
+
+</html>
+Output: The output contains the different sizes of emojis.
+
+
+
+ 
+
+
+             <!DOCTYPE html>
+<html>
+<body>
+
+<p>I am normal</p>
+<p style=" colour: red;">I am red</p>
+<p style="colour: blue;">I am blue</p>
+<p style="font-size:50px;">I am big</p>
+
+</body>
+</html>
+
+              <!DOCTYPE html>
+<html>
+<body style="background-colour: powder blue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph. < /p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HTML | <font> color Attribute
+    </title>
+</head>
+
+<body>
+    <font size="6" face="verdana" color="green">
+        GeeksforGeeks!
+    </font>
+    <br>
+
+    <font size="6" face="arial" color="#008000">
+        GeeksforGeeks!
+    </font>
+    <br>
+
+    <font size="6" color="rgb(128, 128, 0)">
+        GeeksforGeeks!
+    </font>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Font Color Example with CSS</title>
+    <style>
+        . red-text {
+            color: red;
+        }
+        . blue-text {
+            color: #0000ff;
+        }
+        . green-text {
+            color: rgb (0, 153, 0);
+        }
+    </style>
+</head>
+<body>
+    <p class="red-text">This text is red using CSS class. </p>
+    <p class="blue-text">This text is blue using CSS class. </p>
+    <p class="green-text">This text is green using CSS class. </p>
+</body>
+</html>
+
+List Tag
+<!DOCTYPE html>
+<html>
+<body>
+<h2>An unordered HTML list</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>An unordered HTML list</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>A Nested List</h2>
+<p>Lists can be nested (list inside list):</p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+</body>
+</html>
+
+
+Chapter Summary
+•	Use the HTML <ol> element to define an ordered list
+•	Use the HTML type attribute to define the numbering type
+•	Use the HTML <li> element to define a list item
+•	Lists can be nested
+•	List items can contain other HTML elements
+
+
+HTML List Tags
+Tag	Description
+<ul>
+Defines an unordered list
+<ol>
+Defines an ordered list
+<li>
+Defines a list item
+<dl>
+Defines a description list
+<dt>
+Defines a term in a description list
+<dd>
+Describes the term in a description list
+
+Image Tutorial
+<!DOCTYPE html>
+<html>
+<head>
+<title> Image Tutorial </title>
+</head>
+<body>
+<h2> Study with Sheikh farid </h2>
+<img src="https://i.postimg.cc/jS99Fxnm/20180501-174343-Copy.jpg" height="250px"
+width="250px"Border="10px" title="Siddikur rahman"Alt="Profile image"/>
+<img src="1000018331.jpg" height="250px" width="250px" Border="10px" title="picture"
+Alt="GMS composite"/>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Image Size</h2>
+<p>Here we use the style attribute to specify the width and height of an image:</p>
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+</body>
+</html>
+<!DOCTYPE html>   Background Image
+<html>
+<head>
+<style>
+body {
+background-image: url('img_girl.jpg');
+}
+</style>
+</head>
+<body>
+<h2>Background Image</h2>
+<p>By default, the background image will repeat itself if it is smaller than the element where
+it is specified, in this case the body element.</p>
+</body>
+</html>
+
+Iframe Element
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The iframe element</h1>
+
+<iframe src="https://www.studywithanis.com/" title=" Free Online Web Tutorials” width ="400px" height="300px">
+</iframe>
+
+</body>
+</html
+
+Iframe Target Link
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Iframe - Target for a Link</h2>
+
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe. < /p>
+
+</body>
+</html>
+
+Sandbox Iframe
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The iframe sandbox attribute</h1>
+
+<iframe src="demo_iframe_sandbox.htm" sandbox>
+  <p>Your browser does not support iframes. < /p>
+</iframe>
+
+<p>The "Get date and time" button will run a script in the inline frame </p>
+<p>Since the sandbox attribute is set, the content of the inline frame is not allowed to run scripts. < /p>
+<p>You can add "allow-scripts" to the sandbox attribute, to allow the JavaScript to run</p>
+
+</body>
+</html>
+
+Remove Iframe  Border
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Remove the Iframe Border</h2>
+<p>To remove the default border of the iframe, use CSS:</p>
+
+<iframe src="demo_iframe.htm" style="border: none;" title="Iframe Example"></iframe>
+
+</body>
+</html>
+
+Responsive Iframe
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+. responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Iframe</h2>
+<h3>Maintain Aspect Ratio 16:9</h3>
+<p>Resize the window to see the effect</p>
+
+<div class="container"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+</div>
+
+</body>
+</html>
+
+
+HTML Hyperlink
+
+HTML Links - Syntax
+The HTML <a> tag defines a hyperlink. It has the following syntax:
+ <a href="url">link text</a>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML Links</h1>
+
+<p><a href="https://www.studywith anis.com/">Click me to visit </a></p>
+
+</body>
+</html>
+Target attribute 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The target Attribute</h2>
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
+
+<p>If target="_blank", the link will open in a new browser window or tab.</p>
+
+</body>
+</html>
+
+Absolute URL VS Relative URL 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+</body>
+</html>
+
+Image Link
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Image as a Link</h2>
+<p>The image below is a link. Try to click on it. < /p>
+<a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px; height:42px;"></a>
+</body>
+</html>
+
+Email address Link 
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Link to an Email Address</h2>
+
+<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+<p><a href="mailto:someone@example.com">Send email</a></p>
+
+</body>
+</html>
+
+Button As Links
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Button as a Links</h2>
+
+<p>Click the button to go to the HTML tutorial. < /p>
+
+<button onclick="document. Location='default.asp'">HTML Tutorial</button>
+
+</body>
+</html>
+
+Chapter Summary
+
+    Use the <a> element to define a link
+    Use the href attribute to define the link address
+    Use the target attribute to define where to open the linked document
+    Use the <img> element (inside <a>) to use an image as a link
+    Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+
+
+The Table Element 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1>The table element</h1>
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>5000</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>10000</td>
+  </tr>
+</table>
+</body>
+</html>
+
+Table Zebra Style
+<!DOCETYPE html>
+  <html>
+
+  <head>
+    <style>
+      table {
+        border: 1px solid red;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid red;
+        padding: 2px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: #d6EEEE;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th> Serial </th>
+          <th> Name </th>
+          <th> Date of birth </th>
+          <th> Number </th>
+        </tr>
+        <tr>
+          <td> 1 </td>
+          <td> Sheikh farid </td>
+          <td> 29/12/1982 </td>
+          <td> 50 </td>
+        </tr>
+        <tr>
+          <td> 2 </td>
+          <td> Mrs. shirin </td>
+          <td>12/02/19986 </td>
+          <td> 40 </td>
+        </tr>
+        <tr>
+          <td> 3 </td>
+          <td> Siddikur rahman </td>
+          <td>03/09/2008 </td>
+          <td> 30 </td>
+        </tr>
+        <tr>
+          <td> 4 </td>
+          <td> Humyra Khatun </td>
+          <td>23/10/2019 </td>
+          <td> 20 </td>
+        </tr>
+      </tbody>
+  </body>
+
+  </html>
+
+Table rowspan
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> table tutorial </title>
+  <style>
+    table,
+    td,
+    th {
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+  <tbody>
+    <table style="width:100%" ; <tr>
+      <th> Name</th>
+      <th> Position</th>
+
+      <th rowspan="3"> District </th>
+      </tr>
+      <tr>
+        <td>Sadekur Rahman </td>
+        <td> Manager </td>
+
+      </tr>
+      <tr>
+        <td> Linto Shab</td>
+        <td> Asst. Manager</td>
+
+      </tr>
+      <tr>
+        <td> Sheikh farid</td>
+        <td> Officer</td>
+        <td> Sherpur Shadar</td>
+      </tr>
+      <tr>
+        <td> Hamid Al Mahmud</td>
+        <td> Officer</td>
+        <td> Pabna</td>
+      </tr>
+  </tbody>
+</body>
+
+</html>
+
+Collapse Border
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h1>Table with Collapsed Borders</h1>
+
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+Float Right
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>Right-align a Table</h1>
+
+<table style="float:right">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+<p>This is some text to be wrapped around the table. This is some text to be wrapped around the table. This is some text to be wrapped around the table.</p>
+
+</body>
+</html>
+
+Canter Table
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<h1>Center a Table</h1>
+<p>To center a table, set left and right margin to auto:</p>
+
+<table class="center">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+Cellpadding
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+</style>
+</head>
+<body>
+
+<h2>Cellpadding - top - bottom - left - right </h2>
+<p>We can specify different padding for all four sides of the cell content. < /p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+Colspan
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<table style="width:100%">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+</body>
+</html>
+
+Striped Table
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+<body>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table style="width:100%">
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th>
+    <th>SAT</th>
+    <th>SUN</th>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+Table Col group
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Colgroup</h2>
+<p>Add the a colgroup with a col element that spans over two columns to define a style for the two columns:</p>
+
+<table style="width: 100%;">
+<colgroup>
+  <col span="2" style="background-color: #D6EEEE">
+</colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+<th>FRI</th>
+<th>SAT</th>
+<th>SUN</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+</table>
+
+</body>
+</html>
+Combine Vertical and horizontal
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+</style>
+</head>
+<body>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table style="width:100%">
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th>
+    <th>SAT</th>
+    <th>SUN</th>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+HTML Form Element
+Type Attribute
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="username"><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+
+
+Syntax
+<input type="value">
+Attribute Values
+Value	Description
+button
+Defines a clickable button (mostly used with a JavaScript to activate a script)
+checkbox
+Defines a checkbox
+color
+Defines a color picker
+date
+Defines a date control (year, month, day (no time))
+datetime-local
+Defines a date and time control (year, month, day, time (no timezone)
+email
+Defines a field for an e-mail address
+file
+Defines a file-select field and a "Browse" button (for file uploads)
+hidden
+Defines a hidden input field
+image
+Defines an image as the submit button
+month
+Defines a month and year control (no timezone)
+number
+Defines a field for entering a number
+password
+Defines a password field
+radio
+Defines a radio button
+range
+Defines a range control (like a slider control)
+reset
+Defines a reset button
+search
+Defines a text field for entering a search string
+submit
+Defines a submit button
+tel
+Defines a field for entering a telephone number
+text
+Default. Defines a single-line text field
+time
+Defines a control for entering a time (no timezone)
+url
+Defines a field for entering a URL
+week
+Defines a week and year control (no timezone)
+	
+ 
+ChackBox
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Show Checkboxes</h1>
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+Button
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Show a Push Button</h1>
+<p>The button below activates a JavaScript function when it is clicked.</p>
+<form>
+  <input type="button" value="Click me" onclick="msg()">
+</form>
+<script>
+function msg() {
+  alert("Hello world!");
+}
+</script>
+
+</body>
+</html>
+
+Registration Form
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Registration form </title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <form action="https://formspree.io/f/{form_id}" method="post">
+        <level for ="Full Name"> Full Name: </level>
+        <input type="text" name="full name" id="full name">
+      </div>
+      <div> <br>
+        <level for ="email"> Email: </level>
+        <input type="email" name="email" id="email">
+      </div>
+       <div> <br>
+        <level for ="password"> Password: </level>
+        <input type="password" name="password" id="password">
+      </div>
+       <div> <br>
+        <level for ="dob"> Date of Birth: </level>
+        <input type="date" name="dob" id="dob">
+      </div>
+      <div> <br>
+        <level for ="photo"> Chose Your Photo: </level>
+        <input type="File" name="photo" id="photo">
+      </div>
+       <div> <br>
+        <level for ="gender"> Gender: </level>
+        <input type="radio" name="gender" id="gender" value="male">Male
+     <input type="radio" name="gender" id="gender" value="female">Female
+      </div>
+       <div> <br>
+        <level for ="religion"> Religion: </level>
+        <input type="Checkbox" name="Muslim" id="Islam" value="Muslim">Muslim
+     <input type="Checkbox" name="Muslim" id="Hindu" value="Hindu">Hindu
+      </div>
+      <div><br>
+        <level for ="Department"> Department:</level>
+        <select>
+          <option> Lab </option>
+           <option> Floor </option>
+           <option> Store </option>
+        </select>
+      <div> <br>
+        <level for ="massage"> Massage: </level> <br>
+        <text area cols="10" rows="10"> </text area> 
+      </div>
+         <div> <br>
+       <input type="Submit" value="Submit">
+        <input type="reset" value="clear" >              
+    </form>
+  </body>
+Audio Form
+HTML Audio - Media Types
+File Format	Media Type
+MP3	audio/mpeg
+OGG	audio/ogg
+WAV	audio/wav
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio controls autoplay muted>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
+
+Video Form
+
+<!DOCTYPE html> 
+<html> 
+<body> 
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+</body> 
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
+
+Auto Play
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="320" height="240" auto play muted>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
+
+HTML Video - Media Types
+File Format	Media Type
+MP4	video/mp4
+WebM	video/webm
+Ogg	video/ogg
+
+
+
+
+Java Script Use
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<div style="text-align:”center " > 
+  <button onclick="play Pause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document. getElementById ("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+
+</body> 
+</html>
+
+SVG Picture
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first SVG</h1>
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+   Sorry, your browser does not support inline SVG.
+</svg> 
+ 
+</body>
+</html>
+
+What is SVG?
+•	SVG stands for Scalable Vector Graphics
+•	SVG is used to define vector-based graphics for the Web
+•	SVG defines graphics in XML format
+•	Each element and attribute in SVG files can be animated
+•	SVG is a W3C recommendation
+•	SVG integrates with other standards, such as CSS, DOM, XSL and JavaScript
+ 
+ADVERTISEMENT
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=”X-UA-compatible” content=” IE=edge”/>
+<meta name=” viewport” content=” Width=Device width”, initial-scale=1.0”/>
+<title> Document </title>
+<style>.
+details[open] > summary {
+background-color: aqua;
+</style>
+</head>
+<body>
+<details>
+<summary> Summary Here </summary>
+Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lip sum generator.
+</details>
+<figure>
+<img src=. /image/list.png” alt=” list”/>
+<fig caption> fig 1: fig image </fig caption>
+</figure>
+</body>
+</html>
+
+Output:
+
+Web Development front end Skills
+1.	HTML
+2.	GitHub
+3.	Figma
+4.	CSS
+5.	Tailwind CSS/Bootstrap.
+•	JS
+•	sass
+•	React.js
+•	Typescript.js
+fig 1: fig image
